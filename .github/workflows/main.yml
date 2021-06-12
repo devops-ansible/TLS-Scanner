@@ -9,7 +9,6 @@ jobs:
   testing:
     name: testing
     runs-on: ubuntu-latest
-    needs: test
     steps:
 
       - name: Set up QEMU
